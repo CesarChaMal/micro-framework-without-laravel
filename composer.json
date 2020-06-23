@@ -1,0 +1,30 @@
+{
+  "name": "izi-dev/test-soap",
+  "authors": [
+    {
+      "name": "Freddy johanes vargas ramirez",
+      "email": "10887226+izi-dev@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": "^7.16",
+    "vlucas/phpdotenv": "^5.0",
+    "illuminate/validation": "^7.16",
+    "illuminate/translation": "^7.16",
+    "ext-soap": "*",
+    "illuminate/routing": "^7.16",
+    "illuminate/events": "^7.16",
+    "ext-json": "*",
+    "php2wsdl/php2wsdl": "^0.6.1",
+    "illuminate/view": "^7.16",
+    "phpmailer/phpmailer": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "IziDev\\Soap\\": "src"
+    },
+    "files": [
+      "helpers/route.php"
+    ]
+  }
+}
