@@ -1,4 +1,5 @@
-# COPY .ENV.EXAMPLE TO .ENV
+# COPY .ENV.EXAMPLE TO .ENV && Composer install
+
 # .env DATABASE
 
 `URL_SOAP=http://localhost:9000`  
