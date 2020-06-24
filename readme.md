@@ -21,7 +21,7 @@
 
 # MIGRATION
 `
-php migrations/db.php
+php migrate.php
 `
 
 # SERVER SOAP
