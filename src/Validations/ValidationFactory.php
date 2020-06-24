@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Illuminate\Translation\ArrayLoader;
 use Illuminate\Translation\Translator;

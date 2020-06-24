@@ -1,9 +1,9 @@
 <?php
 
 
-namespace IziDev\Soap\Controllers\FrontEnd;
+namespace IziDev\MiniFramework\Controllers\FrontEnd;
 
-use IziDev\Soap\Controllers\Controller;
+use IziDev\MiniFramework\Controllers\Controller;
 
 class PayController extends Controller
 {

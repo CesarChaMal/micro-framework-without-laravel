@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap;
+namespace IziDev\MiniFramework;
 
 class App
 {

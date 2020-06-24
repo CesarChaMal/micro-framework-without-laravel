@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Entities;
+namespace IziDev\MiniFramework\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Controllers;
+namespace IziDev\MiniFramework\Controllers;
 
 class HomeController extends Controller
 {

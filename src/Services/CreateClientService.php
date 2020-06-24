@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Services;
+namespace IziDev\MiniFramework\Services;
 
-use IziDev\Soap\Models\Client;
-use IziDev\Soap\Entities\Client as Entity;
-use IziDev\Soap\Validations\CreateClientValidation;
+use IziDev\MiniFramework\Models\Client;
+use IziDev\MiniFramework\Entities\Client as Entity;
+use IziDev\MiniFramework\Validations\CreateClientValidation;
 
 class CreateClientService
 {

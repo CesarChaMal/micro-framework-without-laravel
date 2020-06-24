@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Models;
+namespace IziDev\MiniFramework\Models;
 
 class ReloadWallet
 {

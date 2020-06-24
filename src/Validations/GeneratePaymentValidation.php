@@ -1,7 +1,7 @@
 <?php
 
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Exception;
 

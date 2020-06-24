@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Boot;
+namespace IziDev\MiniFramework\Boot;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Exception;
-use IziDev\Soap\Models\ConfirmedPayment;
-use IziDev\Soap\Entities\Payment as Entity;
+use IziDev\MiniFramework\Models\ConfirmedPayment;
+use IziDev\MiniFramework\Entities\Payment as Entity;
 
 class ConfirmedPaymentValidation extends ValidationFactory
 {

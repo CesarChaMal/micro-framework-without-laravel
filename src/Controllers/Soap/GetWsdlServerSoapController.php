@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Controllers\Soap;
+namespace IziDev\MiniFramework\Controllers\Soap;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use IziDev\Soap\ServerSoap;
+use IziDev\MiniFramework\ServerSoap;
 
 class GetWsdlServerSoapController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace IziDev\Soap\Controllers\Soap;
+namespace IziDev\MiniFramework\Controllers\Soap;
 
 use Illuminate\Http\Request;
-use IziDev\Soap\ServerSoap;
+use IziDev\MiniFramework\ServerSoap;
 
 class GenerateServerSoapController
 {

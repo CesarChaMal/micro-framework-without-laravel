@@ -1,8 +1,8 @@
 <?php
 
-namespace IziDev\Soap\Validations\Api;
+namespace IziDev\MiniFramework\Validations\Api;
 
-use IziDev\Soap\Validations\ValidationFactory;
+use IziDev\MiniFramework\Validations\ValidationFactory;
 
 class GetTotalForClientValidation extends ValidationFactory
 {

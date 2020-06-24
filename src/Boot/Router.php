@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Boot;
+namespace IziDev\MiniFramework\Boot;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
@@ -71,7 +71,7 @@ class Router
     {
         $routes = include dirname(__DIR__) . "/../routes/web.php";
 
-        $routes = collect($routes)->transform(function ($controller, $route)  {
+        $routes = collect($routes)->transform(function ($controller, $route) {
             return [
                 "name" => self::getNameRoute($route),
                 "method" => self::getMethodRoute($controller),

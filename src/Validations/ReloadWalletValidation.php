@@ -1,11 +1,11 @@
 <?php
 
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Exception;
-use IziDev\Soap\Entities\Client as ClientEntity;
-use IziDev\Soap\Models\ReloadWallet;
+use IziDev\MiniFramework\Entities\Client as ClientEntity;
+use IziDev\MiniFramework\Models\ReloadWallet;
 
 class ReloadWalletValidation extends ValidationFactory
 {

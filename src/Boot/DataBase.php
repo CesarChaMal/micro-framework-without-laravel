@@ -1,7 +1,7 @@
 <?php
 
 
-namespace IziDev\Soap\Boot;
+namespace IziDev\MiniFramework\Boot;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

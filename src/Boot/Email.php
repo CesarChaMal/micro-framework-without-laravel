@@ -1,6 +1,6 @@
 <?php
 
-namespace IziDev\Soap\Boot;
+namespace IziDev\MiniFramework\Boot;
 
 use PHPMailer\PHPMailer\PHPMailer;
 
@@ -10,7 +10,6 @@ class Email
     {
         $mail = new PHPMailer(true);
 
-        //Server settings
         $mail->isSMTP();
         $mail->Host = $_SERVER["EMAIL_HOST"];
         $mail->SMTPAuth = true;

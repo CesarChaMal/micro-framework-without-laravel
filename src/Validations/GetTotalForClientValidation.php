@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Exception;
-use IziDev\Soap\Entities\Client as ClientEntity;
-use IziDev\Soap\Models\GetTotalForClient;
+use IziDev\MiniFramework\Entities\Client as ClientEntity;
+use IziDev\MiniFramework\Models\GetTotalForClient;
 
 class GetTotalForClientValidation extends ValidationFactory
 {

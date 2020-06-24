@@ -1,9 +1,9 @@
 <?php
 
-namespace IziDev\Soap\Entities;
+namespace IziDev\MiniFramework\Entities;
 
 use Illuminate\Database\Eloquent\Model;
-use IziDev\Soap\Entities\Client as ClientEntity;
+use IziDev\MiniFramework\Entities\Client as ClientEntity;
 
 class Wallet extends Model
 {

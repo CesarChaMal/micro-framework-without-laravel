@@ -1,11 +1,11 @@
 <?php
 
-namespace IziDev\Soap\Services;
+namespace IziDev\MiniFramework\Services;
 
-use IziDev\Soap\Boot\Email;
-use IziDev\Soap\Entities\Payment as Entity;
-use IziDev\Soap\Models\GeneratePayment;
-use IziDev\Soap\Validations\GeneratePaymentValidation;
+use IziDev\MiniFramework\Boot\Email;
+use IziDev\MiniFramework\Entities\Payment as Entity;
+use IziDev\MiniFramework\Models\GeneratePayment;
+use IziDev\MiniFramework\Validations\GeneratePaymentValidation;
 
 class GeneratePaymentService
 {

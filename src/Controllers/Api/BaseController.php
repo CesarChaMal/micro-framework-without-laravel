@@ -1,11 +1,11 @@
 <?php
 
 
-namespace IziDev\Soap\Controllers\Api;
+namespace IziDev\MiniFramework\Controllers\Api;
 
 use Illuminate\Http\Response;
 use SoapClient;
-use IziDev\Soap\Controllers\Controller;
+use IziDev\MiniFramework\Controllers\Controller;
 
 abstract class BaseController extends  Controller
 {

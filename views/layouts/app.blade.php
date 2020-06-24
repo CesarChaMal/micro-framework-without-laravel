@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>Pay</title>
 
     <link rel="stylesheet" href="{{ path('/css/app.css') }}">
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Validations;
+namespace IziDev\MiniFramework\Validations;
 
 use Exception;
-use IziDev\Soap\Models\Client;
-use IziDev\Soap\Entities\Client as Entity;
+use IziDev\MiniFramework\Models\Client;
+use IziDev\MiniFramework\Entities\Client as Entity;
 
 class CreateClientValidation extends ValidationFactory
 {

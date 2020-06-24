@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Services;
+namespace IziDev\MiniFramework\Services;
 
-use IziDev\Soap\Entities\Client as Entity;
-use IziDev\Soap\Models\GetTotalForClient;
-use IziDev\Soap\Validations\GetTotalForClientValidation;
+use IziDev\MiniFramework\Entities\Client as Entity;
+use IziDev\MiniFramework\Models\GetTotalForClient;
+use IziDev\MiniFramework\Validations\GetTotalForClientValidation;
 
 class GetTotalForClientService
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Services;
+namespace IziDev\MiniFramework\Services;
 
-use IziDev\Soap\Entities\Payment as Entity;
-use IziDev\Soap\Models\ConfirmedPayment;
-use IziDev\Soap\Validations\ConfirmedPaymentValidation;
+use IziDev\MiniFramework\Entities\Payment as Entity;
+use IziDev\MiniFramework\Models\ConfirmedPayment;
+use IziDev\MiniFramework\Validations\ConfirmedPaymentValidation;
 
 class ConfirmedPaymentService
 {

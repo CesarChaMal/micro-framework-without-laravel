@@ -63,7 +63,7 @@
 
                 axios.post(window.routes["api.client"], vm.client)
                     .then(function (response) {
-                        toastr.success("Create success...");
+                        toast.success("Create success...");
 
                         vm.$emit('success-create', vm.client);
                     })

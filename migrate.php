@@ -2,4 +2,4 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-(new \IziDev\Soap\App)->runMigration();
+(new \IziDev\MiniFramework\App)->runMigration();

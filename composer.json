@@ -6,6 +6,14 @@
       "email": "10887226+izi-dev@users.noreply.github.com"
     }
   ],
+  "keywords" : [
+    "laravel",
+    "eloquent",
+    "blade",
+    "request",
+    "route",
+    "env"
+  ],
   "require": {
     "illuminate/database": "^7.16",
     "vlucas/phpdotenv": "^5.0",
@@ -21,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "IziDev\\Soap\\": "src"
+      "IziDev\\MiniFramework\\": "src"
     },
     "files": [
       "helpers/route.php"

@@ -1,10 +1,10 @@
 <?php
 
-namespace IziDev\Soap\Services;
+namespace IziDev\MiniFramework\Services;
 
-use IziDev\Soap\Entities\Wallet as Entity;
-use IziDev\Soap\Models\ReloadWallet;
-use IziDev\Soap\Validations\ReloadWalletValidation;
+use IziDev\MiniFramework\Entities\Wallet as Entity;
+use IziDev\MiniFramework\Models\ReloadWallet;
+use IziDev\MiniFramework\Validations\ReloadWalletValidation;
 
 class ReloadWalletService
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace IziDev\Soap\Controllers\Api;
+namespace IziDev\MiniFramework\Controllers\Api;
 
-use IziDev\Soap\Validations\Api\GetTotalForClientValidation;
+use IziDev\MiniFramework\Validations\Api\GetTotalForClientValidation;
 
 class GetTotalForClientController extends BaseController
 {

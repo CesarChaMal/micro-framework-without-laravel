@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-use IziDev\Soap\Boot\Router;
+use IziDev\MiniFramework\Boot\Router;
 
 function path($path)
 {

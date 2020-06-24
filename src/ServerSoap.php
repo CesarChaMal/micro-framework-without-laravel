@@ -1,19 +1,19 @@
 <?php
 
-namespace IziDev\Soap;
+namespace IziDev\MiniFramework;
 
 
 use Illuminate\Validation\ValidationException;
-use IziDev\Soap\Models\Client;
-use IziDev\Soap\Models\ConfirmedPayment;
-use IziDev\Soap\Models\GeneratePayment;
-use IziDev\Soap\Models\GetTotalForClient;
-use IziDev\Soap\Models\ReloadWallet;
-use IziDev\Soap\Services\ConfirmedPaymentService;
-use IziDev\Soap\Services\CreateClientService;
-use IziDev\Soap\Services\GeneratePaymentService;
-use IziDev\Soap\Services\GetTotalForClientService;
-use IziDev\Soap\Services\ReloadWalletService;
+use IziDev\MiniFramework\Models\Client;
+use IziDev\MiniFramework\Models\ConfirmedPayment;
+use IziDev\MiniFramework\Models\GeneratePayment;
+use IziDev\MiniFramework\Models\GetTotalForClient;
+use IziDev\MiniFramework\Models\ReloadWallet;
+use IziDev\MiniFramework\Services\ConfirmedPaymentService;
+use IziDev\MiniFramework\Services\CreateClientService;
+use IziDev\MiniFramework\Services\GeneratePaymentService;
+use IziDev\MiniFramework\Services\GetTotalForClientService;
+use IziDev\MiniFramework\Services\ReloadWalletService;
 
 class ServerSoap
 {

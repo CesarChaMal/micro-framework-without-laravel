@@ -1,14 +1,14 @@
 <?php
 
 
-namespace IziDev\Soap\Controllers;
+namespace IziDev\MiniFramework\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
-use IziDev\Soap\Boot\Blade;
-use IziDev\Soap\Validations\ValidationFactory;
+use IziDev\MiniFramework\Boot\Blade;
+use IziDev\MiniFramework\Validations\ValidationFactory;
 
 abstract class Controller
 {
