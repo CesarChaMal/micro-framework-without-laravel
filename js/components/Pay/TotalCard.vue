@@ -9,7 +9,7 @@
                                 Total
                             </h5>
                             <span class="font-semibold text-xl text-gray-800">
-                              {{ client.total }}
+                              {{ total }}
                             </span>
                         </div>
                         <div class="relative w-auto px-2 flex-initial">
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <p class="text-sm text-gray-500 mt-4">
-                        <span class="whitespace-no-wrap">
+                        <span class="whitespace-no-wrap" v-if="client">
                             {{ client.document }}
                         </span>
                     </p>
@@ -39,12 +39,21 @@
         name: "TotalCard",
         props: ["client"],
         mounted () {
-            this.reload();
-
             this.$parent.$on('get-total', this.reload);
+
+            this.reload();
+        },
+        computed : {
+          total() {
+              return this.client == null ? 0 : this.client.total;
+          }
         },
         methods: {
             reload() {
+                if(this.client == null) {
+                    return;
+                }
+
                 let vm = this;
                 vm.$emit('show-loading')
 

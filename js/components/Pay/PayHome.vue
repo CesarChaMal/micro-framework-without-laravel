@@ -15,7 +15,7 @@
 
         <div>
             <total-card
-                    v-if="client !== null"
+                    v-show="client !== null"
                     :client="client"
                     ref="totalCardComponent"
                     @hide-loading="show = false"

@@ -46,14 +46,19 @@
         methods : {
             pay() {
                 let vm = this;
+                vm.$emit('show-loading');
 
                 axios.post(window.routes["api.client.payment.generate"], vm.client)
                     .then(function (response) {
                         toast.success("Pay success...");
                         vm.$emit('success-reload', vm.client);
+                        vm.$emit('hide-loading');
+
                     })
                     .catch(function (error) {
                         toast.error(error.response.data)
+                        vm.$emit('hide-loading');
+
                     })
             }
         }

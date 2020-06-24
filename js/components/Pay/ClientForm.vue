@@ -61,14 +61,18 @@
             create() {
                 let vm = this;
 
+                vm.$emit('show-loading');
+
                 axios.post(window.routes["api.client"], vm.client)
                     .then(function (response) {
                         toast.success("Create success...");
 
                         vm.$emit('success-create', vm.client);
+                        vm.$emit('hide-loading');
                     })
                     .catch(function (error) {
-                        toast.error(error.response.data)
+                        toast.error(error.response.data);
+                        vm.$emit('hide-loading');
                     })
             }
         }
