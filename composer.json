@@ -6,6 +6,7 @@
       "email": "10887226+izi-dev@users.noreply.github.com"
     }
   ],
+  "description" : "php micro framework based on laravel components such as validations, routes, blade, eloquent."
   "keywords" : [
     "laravel",
     "eloquent",
