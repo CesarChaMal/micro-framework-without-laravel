@@ -1,5 +1,6 @@
 {
-  "name": "izi-dev/test-soap",
+  "name": "izi-dev/micro-framework-without-laravel",
+  "type": "project",
   "authors": [
     {
       "name": "Freddy johanes vargas ramirez",
